@@ -1,14 +1,13 @@
-# Toggle_Learning_Rate_On_Gradient_Descent-From_Scratch-
+# Toggle_Learning_Rate_On_Gradient_Descent_From_Scratch
 Observe/Demonstrate effects of toggling learning rate on Gradient Descent 
 
 ## Objective of this notebook
-- To implement Gradient Decsent on MSE Loss function from a neural network perspective
+- Toggle learning rate on Gradient Descent Algorithm & Observe the effects
 - Details of the **problem statement**  , **data set** ,  **summary of the code/solution**  , **sample output/Prediction** from the program and **final result** of the project are listed in the sections to follow.
 
 ## Problem Statement/Prologue
-Gradient Descent is where the magic happens and this optimization algorithm is used in many ML/DL algorithms such as Linear Regression, Logistic Regression , SVM & Neural Networks.We seldom have to implement this algorithm oursleves because the libraries implement it under the hood.
+This Note book build upon our previous notebook "Vanilla Gradient Decsent From Scratch" which is present in my repository and has extremely detailed comments. In this notebook ,we build on top of that notebook and try to toggle learning rate to observe its effects on convergence.We jump right into toggling learning rate , so if the reader needs more of a background , I would reccommend going through the previous notebook
 
-Inspite of being a fundamental concept in ML , this has always been a daunting concept , especially for beginners. Theortically it involves Calculus and Vector Algebra but how does it all pan out in terms of code ? Implementing the Gradient Descent algorithm helps one understand this algorithm at a granular level.
 
 ## Data Description:
 The dataset is manually created for the purpose of this exercise
@@ -17,15 +16,10 @@ The dataset is manually created for the purpose of this exercise
 Deep Learning :Proof of concept
 
 ## Summary of the Solution/Code:
-We will be finding the best fit line on the given data set using Gradient Decsent i.e we will be implementing gradient decsent on the MSE loss function.Below is the step wise breakdown of the code
-
-- We will begin by manually creating a 2D data set & visualize the data set
-- Note here that at this point , we already know what the best fit line for this data looks like.
-- We will then implement Gradient Descent & see whether we can arrive at this best fit line through the gradient Descent algorithm
-- We start at random point and and iteratvely keep reducing the loss until we arrive at the best fit line
-- Cross vaidate whether the "best fit" line we arrived at through gradient decsnt is indeed the best fit line.
-- We will realize all the operations in matrix format because we are implemting this from a neural network perspective
-- Refer **python worksheet  Gradient_Descent_On_MSE.ipynb** for the solution
+- Observe the effects on convergence when learning rate is at an optimim value (LR=0.001)
+- Observe the effects on convergence when learning rate is at a very low value (LR=0.00001)
+- Observe the effects on convergence when learning rate is at very high value (LR=0.1)
+- Refer **python worksheet  Toggle_Learing_Rate_On_GradientDecsent.ipynb** for the solution
 
 ## Visualizing Input :
 
@@ -36,29 +30,32 @@ The above image depicts the following
 - We start at a random line (marked in RED)
 - The BLUE line indicates the best fit line which is our target
 - We need to arrive at this line through the Gradient Descent Algorithm
+- Let us see how changing learning rate affects this convergence
 
 
-## Intermediate Output :
+## Result with LR optimum value :
 
-![image](https://user-images.githubusercontent.com/68383273/209479268-2d0b4656-41ae-4884-a417-578393c2bd1f.png)
+![image](https://user-images.githubusercontent.com/68383273/211151251-c1096d19-176a-4703-8ca9-6aecfdcaba39.png)
+![image](https://user-images.githubusercontent.com/68383273/211151265-9cb99748-8f3e-478d-b618-c8e5cff76de3.png)
 
-- The Green line in the above diagram indicates the line that was arrived at by the gradient descent algorithm after 1 iteration
 
-## Final Output :
 
-![image](https://user-images.githubusercontent.com/68383273/209479298-49cca43b-b162-4bea-9abb-b2b7c4052c17.png)
-- Red line indicates the random line which we started at 
-- The green lines indicate the line arrived at my the gradient descent algorithm at every iteration
-- Note how the green line keeps moving towards the target line i.e blue line 
-- Finally we see how the green line has almost overlapped with the target line demostarting how the gradient descent algorithm arrived at the best fit/target line through multiple iterations.
+## Result with LR high value :
 
-## Result :
+![image](https://user-images.githubusercontent.com/68383273/211151369-fe04d42e-2246-47a8-ab39-f73bef039f90.png)
+![image](https://user-images.githubusercontent.com/68383273/211151513-99202b9d-a0aa-48f2-b9cc-671a563db500.png)
 
-![image](https://user-images.githubusercontent.com/68383273/211143706-0d2c6951-d70f-4d6e-8f72-dd21ebbb459e.png)
+
+
+
+## Result with LR low value :
+
+![image](https://user-images.githubusercontent.com/68383273/211151549-9230bd96-68c9-4cff-82e4-a16b7cef1cc6.png)
+![image](https://user-images.githubusercontent.com/68383273/211151584-2a179318-67d0-4109-9c74-8e597244267f.png)
+
 
 
 ## References
 The following references were used while creating this notebook:
-- https://towardsdatascience.com/linear-regression-using-gradient-descent-97a6c8700931 by Adarsh Menon
 - Post Graduation AI/ML Study Material by GL/UAT
 

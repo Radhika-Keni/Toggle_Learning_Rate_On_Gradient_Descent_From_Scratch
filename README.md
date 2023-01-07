@@ -6,8 +6,7 @@ Observe/Demonstrate effects of toggling learning rate on Gradient Descent
 - Details of the **problem statement**  , **data set** ,  **summary of the code/solution**  , **sample output/Prediction** from the program and **final result** of the project are listed in the sections to follow.
 
 ## Problem Statement/Prologue
-This Note book build upon our previous notebook "Vanilla Gradient Decsent From Scratch" which is present in my repository and has extremely detailed comments. In this notebook ,we build on top of that notebook and try to toggle learning rate to observe its effects on convergence.We jump right into toggling learning rate , so if the reader needs more of a background , I would reccommend going through the previous notebook
-
+This Note book build upon our previous notebook "Vanilla Gradient Decsent From Scratch" which is present in my repository .In this notebook ,we build on top of that notebook and try to toggle learning rate to observe its effects on convergence.We jump right into toggling learning rate , so if the reader needs more of a background on gradient descent then I would recommend going through the previous notebook(which has detailed comments on Gradient Descent)
 
 ## Data Description:
 The dataset is manually created for the purpose of this exercise

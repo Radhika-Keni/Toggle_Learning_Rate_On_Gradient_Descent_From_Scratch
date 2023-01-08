@@ -56,5 +56,6 @@ The above image depicts the following
 
 ## References
 The following references were used while creating this notebook:
+- https://towardsdatascience.com/gradient-descent-from-scratch-e8b75fa986cc by Arseny Turin
 - Post Graduation AI/ML Study Material by GL/UAT
 

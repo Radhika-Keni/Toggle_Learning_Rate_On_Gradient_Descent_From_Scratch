@@ -16,7 +16,7 @@ Deep Learning :Proof of concept
 
 ## Summary of the Solution/Code:
 - Observe the effects on convergence when learning rate is at an optimim value (LR=0.001)
-- Observe the effects on convergence when learning rate is at a very low value (LR=0.00001)
+- Observe the effects on convergence when learning rate is at a very low value (LR=0.0001)
 - Observe the effects on convergence when learning rate is at very high value (LR=0.1)
 - Refer **python worksheet  Toggle_Learing_Rate_On_GradientDecsent.ipynb** for the solution
 
@@ -34,23 +34,20 @@ The above image depicts the following
 
 ## Result with LR optimum value :
 
-![image](https://user-images.githubusercontent.com/68383273/211151251-c1096d19-176a-4703-8ca9-6aecfdcaba39.png)
-![image](https://user-images.githubusercontent.com/68383273/211151265-9cb99748-8f3e-478d-b618-c8e5cff76de3.png)
-
+![image](https://user-images.githubusercontent.com/68383273/212149298-242b48e0-b1d7-4172-be46-c99861c370c2.png)
+![image](https://user-images.githubusercontent.com/68383273/212149380-e80f1383-e4b6-411f-a020-090daa1d3219.png)
 
 
 ## Result with LR high value :
 
-![image](https://user-images.githubusercontent.com/68383273/211151369-fe04d42e-2246-47a8-ab39-f73bef039f90.png)
-![image](https://user-images.githubusercontent.com/68383273/211151513-99202b9d-a0aa-48f2-b9cc-671a563db500.png)
-
-
+![image](https://user-images.githubusercontent.com/68383273/212152122-cde9b4e9-5861-4c72-8133-b21db9c31e6e.png)
+![image](https://user-images.githubusercontent.com/68383273/212149793-0bd48604-7a83-4271-9c04-90350e2b1a47.png)
 
 
 ## Result with LR low value :
 
-![image](https://user-images.githubusercontent.com/68383273/211151549-9230bd96-68c9-4cff-82e4-a16b7cef1cc6.png)
-![image](https://user-images.githubusercontent.com/68383273/211151584-2a179318-67d0-4109-9c74-8e597244267f.png)
+![image](https://user-images.githubusercontent.com/68383273/212149907-997a9e21-ff50-4b73-bdb3-5c1866c55395.png)
+![image](https://user-images.githubusercontent.com/68383273/212149988-447d87d7-fbf3-4ebb-b2f6-f066e84b1e59.png)
 
 
 
